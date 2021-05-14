@@ -639,6 +639,7 @@ input[type='checkbox'] {
 
 .cards-1 .card {
 	margin-bottom: 3.5rem;
+	margin-left: 1rem;
 	padding: 3.125rem 1rem 2.125rem 1rem;
 	border: none;
 	border-radius: 16px;
@@ -1552,8 +1553,8 @@ a:hover.back-to-top {
 	/* Features */
 	.cards-1 .card {
 		width: 350px;
-		padding-right: 3rem;
-		padding-left: 3rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
 	}
 
 	.cards-1 .card:nth-of-type(3n+2) {
