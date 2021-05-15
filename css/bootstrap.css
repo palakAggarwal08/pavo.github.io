@@ -471,10 +471,21 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+ max-width: 100%;
+ height: auto;
+ /*position:absolute; left:70px; top:100px;*/
 }
-
+/*.img-fluid2{
+  max-width:100%;
+  height:auto;
+  position:absolute;
+  left:-40px;
+  top: 30px;
+}
+.img-fluid3{
+  max-width:100%;
+  height:auto;
+}*/
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4763,6 +4774,17 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+}
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.column {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+  
 }
 
 .card-subtitle {
